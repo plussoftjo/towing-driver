@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "UBR-TOWING DRIVER",
+    "slug": "ubr-towing-driver",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ubrtowing.towingdriver",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "UBR TOWING App - Need the permission to get your current location , To help driver to get your location and help you we make this options to make thing easy to you."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyA2tOeEx6e_FSggQVNDDNxueAeUuAKGCFI"
+      }
+    },
+    "description": ""
+  }
+}
